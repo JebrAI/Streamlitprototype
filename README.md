@@ -49,17 +49,6 @@ A Streamlit demo for generating images from text prompts. It includes prompt val
 Live demo:  
 https://appprototype-fxtmqhhez6ckssxvhddbgb.streamlit.app/
 
-Or run locally:
-
-```bash
-git clone https://github.com/your-username/genai-image-studio.git
-cd genai-image-studio
-pip install -r requirements.txt
-streamlit run streamlit_app.py
-````
-
-Open the URL shown in your terminal and start generating images.
-
 ## Aaaaaaaand... 
 ![image](https://github.com/user-attachments/assets/a9f5552b-c742-46bc-b01c-0741ff107ae8)
 
