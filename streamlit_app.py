@@ -65,6 +65,7 @@ CODING_TIPS = [
     "⚡ Streamlit apps auto-refresh when code changes",
     "🎨 Custom CSS can transform your app's appearance",
     "📊 st.columns() creates responsive layouts",
+    "☁️ The sidebar is overlapping with this tip!",
     "🔧 Error handling improves user experience",
     "💾 Temporary files should be cleaned up properly",
     "🛡️ Always validate user inputs for security",
