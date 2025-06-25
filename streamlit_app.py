@@ -17,8 +17,8 @@ from io import BytesIO
 st.set_page_config(
     page_title="GenAI Image Studio",
     page_icon="🎨",
-    layout="wide",
-    initial_sidebar_state="expanded"
+    layout="centered",
+    initial_sidebar_state="auto"
 )
 
 # ───────────────────────────────────────────────────────────────────────────────
@@ -109,7 +109,7 @@ def validate_prompt(prompt: str) -> Tuple[bool, str]:
     if word_count < MIN_PROMPT_WORDS:
         return False, f"Prompt too short (minimum {MIN_PROMPT_WORDS} words)"
     
-    # Check for potential inappropriate content
+    # Check for potential inappropriate content (Simple)
     blocked_terms = ['nsfw', 'explicit', 'adult', 'nude']
     if any(term in prompt.lower() for term in blocked_terms):
         return False, "Prompt contains inappropriate content"
@@ -127,7 +127,7 @@ def get_cache_path(prompt: str, negative: str, style: str, width: int, height: i
 def generate_image(prompt: str, negative: str, style: str, width: int, height: int) -> Tuple[Optional[Image.Image], str, float, str]:
     """Generate image with improved error handling and caching"""
     set_current_code("cache_path = get_cache_path(prompt, negative, style, width, height)")
-    
+
     # Check cache first
     cache_path = get_cache_path(prompt, negative, style, width, height)
     if os.path.exists(cache_path):
