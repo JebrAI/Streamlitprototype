@@ -46,10 +46,12 @@ A Streamlit demo for generating images from text prompts. It includes prompt val
 
 ## Try It Out!
 
-Live demo:  
+Live demo:
+
 https://appprototype-fxtmqhhez6ckssxvhddbgb.streamlit.app/
 
-Pro demo (Extended features, small fixes)
+Pro demo (Extended features, small fixes):
+
 https://appprototype-jattxpwwxugyr6keuaqzea.streamlit.app/
 ## Aaaaaaaand... 
 ![image](https://github.com/user-attachments/assets/a9f5552b-c742-46bc-b01c-0741ff107ae8)
