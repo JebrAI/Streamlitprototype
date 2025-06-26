@@ -60,9 +60,17 @@ https://appprototype-jattxpwwxugyr6keuaqzea.streamlit.app/
 
 Each successful generation triggers a confetti effect to celebrate your new art.
 
-## AI Assistance and Credits
+## Credits and AI Assistance
 
-This README and supporting structure were drafted with AI assistance. Core code implementation, design and testing by the project author.
+- **Idea, Prompts & Debugging**  
+  Crafted by the user, leveraging their expertise in Python, machine learning, deep learning, and AI.
+
+- **Core Code Implementation & Design**  
+  Generated from the user’s prompts via AI assistance.
+
+- **API Milestones, Project Structure & Testing**  
+  Defined and carried out by the project author.
+
 
 ## AI Technology Stack
 
